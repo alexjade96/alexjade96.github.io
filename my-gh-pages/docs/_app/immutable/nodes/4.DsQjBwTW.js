@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/DtkmJ1uu.js";import{f as o,a as n,n as r}from"../chunks/C6RTmORU.js";var p=o("<h1>Contact Page</h1> <p>Eventual Contact (Form?) Page</p>",1);function c(a){var t=p();r(2),n(a,t)}export{c as component};
