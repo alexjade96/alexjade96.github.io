@@ -10,7 +10,7 @@
         I'm using this website to work on & learn various technologies recommended to me, as well as begin to finally catalog various projects, thoughts, and ideas I've had over the years.
     </p>
     <p>
-        This is a work in progress and I will be adding more content as I go along.  Below are a few site-components I'm planning to add in the future!
+        This is a work in progress, I'll be adding more content as I go along.  Below are a few site-components I'm planning to add in the future!
     </p>
     <table class="table-auto">
         <caption>To-Do Next</caption>
@@ -35,23 +35,23 @@
                 <th>Feature</th>
                 <th>Description</th>
                 <th>Potential roadblocks</th>
-                <th>Progression/Solutions</th>
-                <th>Priorities</th>
+                <th>Solutions</th>
+                <th>Progress</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Leave A Comment</td>
                 <td>Adding site-wide comments</td>
-                <td>Would require a database to store comment objects which I'm trying to avoid as I'm hosting this on Github Pages</td>
-                <td>Some preliminary research shows potential to use Github Issues (Utterance?) for this purpose - Complete-ish using Utterances, thinking about side-bar-ing instead of showing them in the footer!</td>
+                <td>Would require a database to store comment objects which I'm trying to avoid as I'm hosting this on Github Pages - Some preliminary research shows potential to use Github Issues (Utterance?) for this purpose</td>
+                <td>Complete-ish using Utterances, thinking about sidebar-ing instead of dropping them in the footer!</td>
                 <td>✅</td>
             </tr>
             <tr>
                 <td>Skill Highlighting</td>
                 <td>Adding extra flair to showing resume skills/components on the "Resume" page</td>
                 <td>Research on CSS/Styling & other svelte-kit add-ons</td>
-                <td>In thought phase, TBC</td>
+                <td>In thought phase</td>
                 <td>TBD</td>
             </tr>
             <tr>
