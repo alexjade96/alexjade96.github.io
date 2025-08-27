@@ -18,7 +18,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><img src="./images/umamusume.jpeg" alt="Logo" class="object-contain"/></td>
+            <td><img src="/images/umamusume.jpeg" alt="Logo" class="object-contain"/></td>
             <td>Uma Musume - Pretty Derby</td>
             <td>Recommended skills for career mode</td>
             <td>Firm Conditions vs Wet Conditions (How many races have Firm-type ground vs Wet sub-types)</td>

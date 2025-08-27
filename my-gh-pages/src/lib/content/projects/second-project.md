@@ -15,7 +15,7 @@ published: true
 This is my second project!
 
 <script>
-  import Counter from './counter.svelte'
+  import Counter from '../../components/counter.svelte'
 </script>
 
 ## Counter

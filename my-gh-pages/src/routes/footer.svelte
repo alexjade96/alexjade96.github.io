@@ -15,7 +15,6 @@
 			// minute: '2-digit',
 		});
 	});
-	console.log('Config repo:', config.repo);
 </script>
 
 <section class="comments">

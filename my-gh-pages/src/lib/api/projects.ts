@@ -1,7 +1,7 @@
-import { json } from '@sveltejs/kit'
-import type { Project } from '$lib/types'
+// src/lib/api/projects.ts
+import type { Project } from '$lib/types';
 
-async function getProjects() {
+export async function getProjects(): Promise<Project[]> {
 	let projects: Project[] = []
 
 	const paths = import.meta.glob('/src/lib/content/projects/*.md', { eager: true })
@@ -22,9 +22,4 @@ async function getProjects() {
 	)
 
 	return projects
-}
-
-export async function GET() {
-	const projects = await getProjects()
-	return json(projects)
 }
