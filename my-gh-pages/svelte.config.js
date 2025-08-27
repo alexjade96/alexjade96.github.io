@@ -30,7 +30,10 @@ const config = {
 		mdsvex(mdsvexOptions)
 	], //, sveltexPreprocessor],
 	kit: { 
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'docs',
+			assets: 'docs',
+		}),
 		prerender: {
 			entries: [
 				'/projects/github-pages',
