@@ -21,13 +21,14 @@
 <h3>Comments section</h3>
 <p>Testing using Utterances (Github Issues) to provide comments</p>
 <div>
-  <script src="https://utteranc.es/client.js"
-        repo={config.repo}
-        issue-term="url"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
+	<script src="https://utteranc.es/client.js"
+			repo="alexjade96/alexjade96.github.io"
+			issue-term="pathname"
+			label="Comments"
+			theme="preferred-color-scheme"
+			crossorigin="anonymous"
+			async>
+	</script>
 </div>
 </section>
 
