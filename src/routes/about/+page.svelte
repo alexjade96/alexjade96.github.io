@@ -42,10 +42,10 @@
         <tbody>
             <tr>
                 <td>Leave A Comment</td>
-                <td>Recommended skills for career mode</td>
+                <td>Adding site-wide comments</td>
                 <td>Would require a database to store comment objects which I'm trying to avoid as I'm hosting this on Github Pages</td>
-                <td>Some preliminary research shows potential to use Github Issues (Utterance?) for this purpose</td>
-                <td>Researching, style to either set at footer or keep on separate page (?)</td>
+                <td>Some preliminary research shows potential to use Github Issues (Utterance?) for this purpose - Complete-ish using Utterances, thinking about side-bar-ing instead of showing them in the footer!</td>
+                <td>✅</td>
             </tr>
             <tr>
                 <td>Skill Highlighting</td>
