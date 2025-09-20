@@ -1,7 +1,7 @@
 ---
 title: "Asynchronous API"
 description: "Asynchronous API derived from the game League of Legends"
-date: "2025-08-02"
+date: "2025-09-014"
 categories:
   - Python
   - FastAPI
