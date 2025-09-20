@@ -18,7 +18,7 @@
         <tr>
             <td>Song/Playlist Downloader</td>
             <td>Universal playlist downloader from major music applications (e.g. Spotify, Youtube, etc.)  Also allow for changing Song Metadata, maybe also mobile version for on-the-go mixtapes!</td>
-            <td>Most likely to start work on next!</td>
+            <td>Currently in progress as of 9/01/2025!</td>
         </tr>
         <tr>
             <td>Room Planner</td>

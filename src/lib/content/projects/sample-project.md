@@ -1,6 +1,6 @@
 ---
-title: "Second Project"
-description: "This is my second project!"
+title: "Sample Project"
+description: "This is a sample project!"
 date: "2025-08-02"
 categories:
   - tutorial
@@ -12,7 +12,7 @@ published: true
 
 ## Intro
 
-This is my second project!
+This is a sample project template!
 
 <script>
   import Counter from '../../components/counter.svelte'
