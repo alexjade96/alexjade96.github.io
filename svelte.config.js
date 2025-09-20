@@ -37,7 +37,7 @@ const config = {
 		prerender: {
 			entries: [
 				'/projects/github-pages',
-				'/projects/asynch-api',
+				'/projects/async-api',
 				'/projects/sample-project',
 				'/projects/resume',
 			]
