@@ -40,7 +40,7 @@ const config = {
 				'/projects/async-api',
 				'/projects/sample-project',
 				'/projects/resume',
-				'/blogs/sample-blog',
+				'/blog/sample-blog',
 			]
 		}
 	 },
