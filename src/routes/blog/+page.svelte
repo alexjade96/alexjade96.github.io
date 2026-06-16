@@ -15,7 +15,7 @@
 	<ul class="blogs">
 		{#each [... data.blogs].reverse() as blog}
 			<li class="blog">
-				<a href={`/blogs/${blog.slug}`} class="title">{blog.title}</a>
+				<a href={`/blog/${blog.slug}`} class="title">{blog.title}</a>
 				<p class="date">{formatDate(blog.date)}</p>
 				<p class="description">{blog.description}</p>
 			</li>
