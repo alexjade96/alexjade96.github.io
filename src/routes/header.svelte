@@ -18,6 +18,9 @@
 			<a href="/resume">Resume</a>
 		</li>
 		<li>
+			<a href="/blog">Blog</a>
+		</li>
+		<li>
 			<a href="/ideas">Idea Tracker</a>
 		</li>
 		<li>

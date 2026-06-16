@@ -10,3 +10,15 @@ export type Project = {
 	categories: string[]
 	published: boolean
 }
+
+import { getAllBlogCategories } from './categories';
+
+export type Blog = {
+	title: string
+	slug: string
+	description: string
+	date: string
+	// categories: Categories[]
+	categories: string[]
+	published: boolean
+}
