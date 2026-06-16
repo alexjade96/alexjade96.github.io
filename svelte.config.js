@@ -40,6 +40,10 @@ const config = {
 				'/projects/async-api',
 				'/projects/sample-project',
 				'/projects/resume',
+				'/projects/concept-learning',
+				'/projects/discord-tl-bot',
+				'/projects/league-of-llm',
+				'/projects/your-music-library',
 				'/blog/sample-blog',
 			]
 		}
