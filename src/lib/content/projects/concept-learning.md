@@ -1,7 +1,7 @@
 ---
 title: "Concept Learning"
 description: "Hands-on explorations of machine learning and data engineering frameworks"
-date: "2026-05-12"
+date: "2026-03-01"
 categories:
   - Python
   - PyTorch
@@ -22,7 +22,3 @@ The main focus of the repo. Working through deep learning fundamentals using PyT
 ## LearnPySpark
 
 Early exercises following the [sparkbyexamples.com](https://sparkbyexamples.com/pyspark-tutorial/) PySpark tutorial, covering distributed data processing fundamentals.
-
-## LearnNoSQL
-
-Placeholder environment for upcoming NoSQL concepts.

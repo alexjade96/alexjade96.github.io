@@ -36,7 +36,3 @@ The Spotify API module (`src/routes/search/api/spotify.ts`) handles OAuth client
 - **SongCard** — compact listing for search results
 - **TrackDetails** — expanded view of a selected track
 - **collapser** — collapsible section wrapper
-
-## Status
-
-Under active development. The Spotify metadata retrieval and DB schema are in place; the download pipeline and source-matching logic are planned next.

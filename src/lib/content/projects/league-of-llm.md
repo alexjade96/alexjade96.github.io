@@ -1,7 +1,7 @@
 ---
 title: "League of LLM"
 description: "A Riot API data pipeline and ML toolkit for League of Legends analytics and model training"
-date: "2026-05-30"
+date: "2026-01-30"
 categories:
   - Python
   - PyTorch
