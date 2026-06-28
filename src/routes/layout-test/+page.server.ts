@@ -6,4 +6,4 @@ export async function load() {
 	return { projects: projects.slice(0, 6), blogs: blogs.slice(0, 3) };
 }
 
-export const prerender = false;
+export const prerender = true;
