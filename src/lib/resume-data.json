@@ -1,0 +1,115 @@
+{
+	"name": "Alexander Yeh",
+	"contact": [
+		"alexander.x.yeh@gmail.com",
+		"(323)-538-2865"
+	],
+	"sections": [
+		{
+			"title": "PROFILE",
+			"type": "text",
+			"content": "Software Engineer with I.T. \\& FinTech industry experience and recent Masters degree with focus on data analytics and emerging technologies. Seeking roles in Data Analytics, Business Intelligence, and AI/Machine Learning."
+		},
+		{
+			"title": "EDUCATION",
+			"type": "education",
+			"entries": [
+				{
+					"degree": "Master of Science | Management Information Systems",
+					"date": "2025",
+					"institution": "University of Arizona",
+					"note": "GPA: 4.0"
+				},
+				{
+					"degree": "Bachelor of Science | Computer Science",
+					"date": "2015",
+					"institution": "University of Notre Dame",
+					"note": null
+				}
+			]
+		},
+		{
+			"title": "WORK EXPERIENCE",
+			"type": "experience",
+			"entries": [
+				{
+					"title": "Data Engineer, Software Engineer",
+					"date": "2018 | 2023",
+					"subtitle": "Wilshire Associates | Data Management Service",
+					"bullets": [
+						"Created automated Python ETL pipelines using Pandas, Requests, and Selenium with SQL Server and Batch scripts to ingest data for the data warehouse, improving data quality and streamlining data delivery workflows.",
+						"Developed SQL Server database objects (staging/reporting tables, Views, and Stored Procedures), automated via SQL Server Agent Jobs and monitored using SSRS reports to ensure timely delivery of business data.",
+						"Built Full-Stack Flask and FastAPI web applications enabling external data operations, saving 40+ monthly hours of manual work and minimizing cross-timezone coordination delays by reducing reliance on the Data Team.",
+						"Migrated legacy SQL Server Data Warehouse systems from on-premise data centers to Azure Cloud (Virtual Machines), ensuring production stability and continual business operations with minimal disruption.",
+						"Experience providing data operations and support during Intra/Post-incident following Major Security Events."
+					]
+				},
+				{
+					"title": "Support Engineer, System Administrator",
+					"date": "2016 | 2017",
+					"subtitle": "Wilshire Associates | Client Service Technology",
+					"bullets": [
+						"Provided support for proprietary financial applications via Citrix XenApp and Apache Tomcat, resolving client connectivity issues and handling service requests while ensuring application uptime for remote and hosted users.",
+						"Managed client service requests in Salesforce and JIRA, coordinating escalations and ensuring timely resolution.",
+						"Administered Windows Server virtual environments using VMware and Active Directory (GPO), managing user access and system configurations to ensure stable server operations."
+					]
+				}
+			]
+		},
+		{
+			"title": "PROJECTS",
+			"type": "projects",
+			"entries": [
+				{
+					"title": "League of Legends AI-Assistant",
+					"date": "Ongoing",
+					"bullets": [
+						"Developed a League of Legends AI assistant for game knowledge and player guidance, powered by a domain-specific model fine-tuned on gameplay data, champion information, patch updates, and derived analytics.",
+						"Built data pipelines for knowledge-base ingestion using Riot Games API data, generating player-performance metrics, matchup statistics, meta analysis, and patch-impact insights, stored in SQLite and PostgreSQL.",
+						"Deployed FastAPI services to Cloudflare and Supabase for model serving, data processing, and query handling.",
+						"Built a hybrid retrieval-augmented generation (RAG) pipeline that combines structured game analytics with generated responses to increase factual accuracy and enable context-aware recommendations to queries."
+					]
+				},
+				{
+					"title": "Discord Translation Bot",
+					"date": "Ongoing",
+					"bullets": [
+						"Created a Discord Bot to take in user submissions (text, image, audio, video files) for translation purposes.",
+						"Adapted EasyOCR to handle text-in-image recognition, Whisper for audio recognition, Helsinki-NLP model for text translations.",
+						"Adapted to continual learning methods from submissions to improve overall recognition and translation models."
+					]
+				}
+			]
+		},
+		{
+			"title": "SKILLS",
+			"type": "skills",
+			"items": [
+				{
+					"category": "Programming",
+					"items": "Python, C, C++, SQL, R, Javascript, Typescript, HTML, CSS, Batch/PowerShell, Bash/Csh"
+				},
+				{
+					"category": "Frameworks",
+					"items": "Flask/Django, PyTorch, Jupyter, Scikit-learn, Pandas, FastAPI, PyODBC, SQLAlchemy, Selenium"
+				},
+				{
+					"category": "AI/ML",
+					"items": "Regression, Classification, Clustering, Supervised/Unsupervised Learning, Claude, Codex, Huggingface"
+				},
+				{
+					"category": "Database",
+					"items": "MS SQL, PL/SQL, Postgres, Data Warehouse, Dimensional Modeling (Star, Snowflake), ETL/ELT"
+				},
+				{
+					"category": "Tools/Infrastructure",
+					"items": "Azure, AWS, Git, CI/CD, Docker, JIRA, Salesforce, Windows, Linux/UNIX, SaaS"
+				},
+				{
+					"category": "I.T.",
+					"items": "System Administration, Virtualization, Networks, Cloud, Security, Governance (ITIL, COBIT, NIST)"
+				}
+			]
+		}
+	]
+}

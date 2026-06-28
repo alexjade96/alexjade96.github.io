@@ -1,73 +1,54 @@
-<script>
-
-</script>
-
-<!--<PageTitle>About</PageTitle>-->
-
 <section class="about">
-    <h1>Simplistic About-Me</h1>
-    <p>
-        I'm using this website to work on & learn various technologies recommended to me, as well as begin to finally catalog various projects, thoughts, and ideas I've had over the years.
-    </p>
-    <p>
-        This is a work in progress, I'll be adding more content as I go along.  Below is a rough progression table with a few site-components I'm planning to implement in the future!
-    </p>
-    <table class="table-auto">
-        <caption>To-Do List (Last Updated: 8/28/2025)</caption>
-        <thead>
-            <tr>
-                <th>Feature</th>
-                <th>Description</th>
-                <th>Potential roadblocks</th>
-                <th>Solutions</th>
-                <th>Progress</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Leave A Comment</td>
-                <td>Adding site-wide comments</td>
-                <td>Would require a database to store comment objects which I'm trying to avoid as I'm hosting this on Github Pages - Some preliminary research shows potential to use Github Issues (Utterance?) for this purpose</td>
-                <td>Currently using Utterances, thinking about sidebar-ing instead of dropping them in the footer!</td>
-                <td>✅</td>
-            </tr>
-            <tr>
-                <td>Style Expansion</td>
-                <td>Adding more site components like a sidebar (for menu/comment chaining, etc.)</td>
-                <td>Researching, potential conflict with having both top nav/sidebar nav styles?</td>
-                <td>In progress</td>
-                <td>⏳</td>
-            </tr>
-            <tr>
-                <td>(Resume) Skill Highlighting</td>
-                <td>Adding extra flair to showing resume skills/components on the "Resume" page</td>
-                <td>Research on CSS/Styling & other svelte-kit add-ons</td>
-                <td>In thought phase</td>
-                <td>⏳</td>
-            </tr>
-            <tr>
-                <td>Music Display/External API loading?</td>
-                <td>One of my future projects involves working with music (e.g. Spotify), maybe can adapt it to here as well?</td>
-                <td>Not sure if API calls are feasible for Github Pages, may have to eventually turn to hosting options</td>
-                <td>Far Track</td>
-                <td>⏳</td>
-            </tr>
-            <tr>
-                <td>Expand on Subtopics (Projects, Ideas, Game Stuff, etc.)</td>
-                <td>Planning to add another items to track</td>
-                <td>May need to host/redirect to other sites, especially if creating detailed projects</td>
-                <td>Far Track</td>
-                <td>⏳</td>
-            </tr>
-        </tbody>
-    </table>
+	<h1>About</h1>
+
+	<p>
+		This site is a personal corner of the internet where I'm slowly putting together things I've built, ideas I've been sitting on, and generally just practicing building skills in a contained environment.
+	</p>
+
+	<table class="table-auto">
+		<caption>Site Roadmap (Last Updated: 6/28/2026)</caption>
+		<thead>
+			<tr>
+				<th>Feature</th>
+				<th>Description</th>
+				<th>Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Comments</td>
+				<td>Site-wide comments powered by GitHub Issues via Utterances</td>
+				<td>✅ Done</td>
+			</tr>
+			<tr>
+				<td>Resume Highlights</td>
+				<td>Skills, career timeline, and key resume info surfaced on the resume page</td>
+				<td>✅ Done</td>
+			</tr>
+			<tr>
+				<td>Style Expansion</td>
+				<td>Ongoing additions to site components, layout, and visual polish</td>
+				<td>⏳ In progress</td>
+			</tr>
+			<tr>
+				<td>Expand Subtopics</td>
+				<td>Fleshing out Projects, Ideas, and Games pages with real content</td>
+				<td>⏳ In progress</td>
+			</tr>
+			<tr>
+				<td>Music / External APIs</td>
+				<td>Integrating something like Spotify — listening history or live activity</td>
+				<td>🔮 Planned</td>
+			</tr>
+		</tbody>
+	</table>
 </section>
 
 <style>
-    p {
-        margin-block: var(--size-5);
-        max-width: 800px;
-        margin-inline: auto;
-        font-size: var(--size-3);
-    }
+	p {
+		margin-block: var(--size-5);
+		max-width: 800px;
+		margin-inline: auto;
+		font-size: var(--size-3);
+	}
 </style>

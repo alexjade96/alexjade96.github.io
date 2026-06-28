@@ -1,0 +1,138 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
+\usepackage{hanging}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage[table]{xcolor}
+\usepackage[most]{tcolorbox}
+
+% Reduce overall vertical spacing globally
+
+\setlength{\itemsep}{0pt}
+\setlength{\topsep}{0pt}
+
+
+\name{Alexander Yeh} % Your name
+\address{
+    % \href{mailto:alexander.x.yeh@gmail.com}
+    {alexander.x.yeh@gmail.com}
+    {(323)-538-2865}
+    % \href{https://github.com/alexjade96}{https://github.com/alexjade96}
+}
+%----------------------------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% PROFILE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFILE}
+\vspace{-6pt}
+Software Engineer with I.T. \& FinTech industry experience and recent Masters degree with focus on data analytics and emerging technologies. Seeking roles in Data Analytics, Business Intelligence, and AI/Machine Learning.
+\vspace{-6pt}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EDUCATION}
+
+\vspace{-6pt}
+{\bf Master of Science | Management Information Systems} \hfill {\em 2025} \\
+University of Arizona \hfill {\em GPA: 4.0}
+
+\vspace{-6pt}
+{\bf Bachelor of Science | Computer Science} \hfill {\em 2015} \\
+University of Notre Dame
+
+\vspace{-6pt}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{WORK EXPERIENCE}
+\vspace{-6pt}
+\textbf{Data Engineer, Software Engineer} \hfill \textit{2018 | 2023} \\
+Wilshire Associates | \textit{Data Management Service}
+\vspace{-6pt}
+\begin{itemize}
+    \itemsep -6pt {}
+    \item Created automated Python ETL pipelines using Pandas, Requests, and Selenium with SQL Server and Batch scripts to ingest data for the data warehouse, improving data quality and streamlining data delivery workflows.
+    \item Developed SQL Server database objects (staging/reporting tables, Views, and Stored Procedures), automated via SQL Server Agent Jobs and monitored using SSRS reports to ensure timely delivery of business data.
+    \item Built Full-Stack Flask and FastAPI web applications enabling external data operations, saving 40+ monthly hours of manual work and minimizing cross-timezone coordination delays by reducing reliance on the Data Team.
+    \item Migrated legacy SQL Server Data Warehouse systems from on-premise data centers to Azure Cloud (Virtual Machines), ensuring production stability and continual business operations with minimal disruption.
+    \item Experience providing data operations and support during Intra/Post-incident following Major Security Events.
+\end{itemize}
+\vspace{-6pt}
+\textbf{Support Engineer, System Administrator} \hfill \textit{2016 | 2017} \\
+Wilshire Associates | \textit{Client Service Technology}
+\vspace{-6pt}
+\begin{itemize}
+    \itemsep -6pt {}
+    \item Provided support for proprietary financial applications via Citrix XenApp and Apache Tomcat, resolving client connectivity issues and handling service requests while ensuring application uptime for remote and hosted users.
+    \item Managed client service requests in Salesforce and JIRA, coordinating escalations and ensuring timely resolution.
+    \item Administered Windows Server virtual environments using VMware and Active Directory (GPO), managing user access and system configurations to ensure stable server operations.
+\end{itemize}
+\vspace{-6pt}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS}
+\vspace{-6pt}
+% \begin{comment}
+\textbf{League of Legends AI-Assistant} \hfill {\em Ongoing} \\
+% || \href{https://www.LoLLM.net}{www.LoLLM.net}} \hfill {\em Ongoing} \\
+\begin{itemize}
+    \vspace{-2em}
+    \itemsep -6pt {}
+    \item Developed a League of Legends AI assistant for game knowledge and player guidance, powered by a domain-specific model fine-tuned on gameplay data, champion information, patch updates, and derived analytics.
+    \item Built data pipelines for knowledge-base ingestion using Riot Games API data, generating player-performance metrics, matchup statistics, meta analysis, and patch-impact insights, stored in SQLite and PostgreSQL.
+    \item Deployed FastAPI services to Cloudflare and Supabase for model serving, data processing, and query handling.
+    \item Built a hybrid retrieval-augmented generation (RAG) pipeline that combines structured game analytics with generated responses to increase factual accuracy and enable context-aware recommendations to queries.
+    % \item SLM designed with GPT-style responses using Gemini-Nano base (SOME SAMPLES -- Gemma2 2b, Llama3.1 70B, Qwen2.5 14B, etc.)
+\end{itemize}
+\vspace{-6pt}
+% \end{comment}
+\textbf{Discord Translation Bot} \hfill {\em Ongoing} \\
+\begin{itemize}
+    \vspace{-2em}
+    \itemsep -6pt {}
+    \item Created a Discord Bot to take in user submissions (text, image, audio, video files) for translation purposes.
+    \item Adapted EasyOCR to handle text-in-image recognition, Whisper for audio recognition, Helsinki-NLP model for text translations.
+    \item Adapted to continual learning methods  from submissions to improve overall recognition and translation models.
+\end{itemize}
+\vspace{-6pt}
+\begin{comment}
+\textbf{Fantasy Football Statistical Analyzer} \hfill {\em 2025} \\
+\begin{itemize}
+    \vspace{-2em}
+    \itemsep -6pt {}
+    \item Designed an automated R script to gather NFL Data from Sleeper API for data analysis piped into various data visualizations to help distinguish trends based on player performances \& User Team movements.
+    \item Highlights include User Roster trends, Player Position Point averages \& performances, Flex spot allocations (RB vs WR vs TE), Trade \& Waiver Wire performances, Player performances on different Rosters
+\end{itemize}
+\vspace{-6pt}
+\end{comment}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% SKILLS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+\vspace{-6pt}
+\textbf{Programming} Python, C, C++, SQL, R, Javascript, Typescript, HTML, CSS, Batch/PowerShell, Bash/Csh \\
+\textbf{Frameworks} Flask/Django, PyTorch, Jupyter, Scikit-learn, Pandas, FastAPI, PyODBC, SQLAlchemy, Selenium \\
+\textbf{AI/ML} Regression, Classification, Clustering, Supervised/Unsupervised Learning, Claude, Codex, Huggingface \\
+\textbf{Database} MS SQL, PL/SQL, Postgres, Data Warehouse, Dimensional Modeling (Star, Snowflake), ETL/ELT \\
+\textbf{Tools/Infrastructure} Azure, AWS, Git, CI/CD, Docker, JIRA, Salesforce, Windows, Linux/UNIX, SaaS \\
+\textbf{I.T.} System Administration, Virtualization, Networks, Cloud, Security, Governance (ITIL, COBIT, NIST)
+\vspace{-6pt}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\end{document}
+%----------------------------------------------------------------------------------------

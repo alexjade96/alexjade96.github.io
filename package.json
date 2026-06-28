@@ -3,10 +3,10 @@
 	"version": "0.0.1",
 	"scripts": {
 		"rebuild": "npx rimraf .svelte-kit build && npm run build",
-		"dev": "node src/lib/generate-meta.js && vite dev",
+		"dev": "node src/lib/generate-meta.js && node src/lib/parse-resume.js && vite dev",
 		"build": "vite build && npm run prepack",
 		"deploy": "my-gh-pages -d build",
-		"prebuild": "node src/lib/generate-meta.js",
+		"prebuild": "node src/lib/generate-meta.js && node src/lib/parse-resume.js",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package && publint",
