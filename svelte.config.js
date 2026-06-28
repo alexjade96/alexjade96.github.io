@@ -48,6 +48,7 @@ const config = {
 				'/games',
 				'/ideas',
 				'/temp',
+				'/layout-test',
 			]
 		}
 	 },
