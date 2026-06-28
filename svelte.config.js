@@ -45,6 +45,9 @@ const config = {
 				'/projects/league-of-llm',
 				'/projects/your-music-library',
 				'/blog/sample-blog',
+				'/games',
+				'/ideas',
+				'/temp',
 			]
 		}
 	 },
